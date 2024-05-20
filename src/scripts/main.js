@@ -24,6 +24,6 @@ const contaAsHoras = setInterval(function() {
 
     if (distanciaAteOEvento < 0) {
         clearInterval(contaAsHoras);
-        document.getElementById('contador').innerHTML = `Evento expirado`;
+        document.getElementById('contador').innerHTML = `A festa foi top, nos vemos ano que vem`;
     }
 }, 1000);
